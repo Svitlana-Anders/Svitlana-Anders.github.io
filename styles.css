@@ -1,0 +1,294 @@
+.hero {
+    background-image: url(images/1674359885_foni-club-p-fon-informatika-8.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+  }
+
+  /* Стили для текста внутри блока обо мне */
+  .bg-1 h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold; /* Делаем текст жирным */
+ 
+  }
+
+  .bg-1 p {
+    font-size: 24px;
+  }
+
+  .bg-1 {
+    background-color: #95c1d2; 
+  }
+  .btn-primary {
+  color: #f7f6f6;
+  background-color: #2173a0;
+  border: 1px solid #84abd1;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 14px rgba(135, 103, 103, 0.2);
+  }
+  /* Базовые стили для кнопки */
+.btn-primary {
+  color: #fff;
+  background-color: #2173a0;
+  border: 1px solid #84abd1;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 14px rgba(135, 103, 103, 0.2);
+}
+
+/* Стили при наведении на кнопку */
+.btn-primary:hover {
+  background-color: #133547; /* Измените цвет при наведении */
+  border-color: #1e687f; /* Измените цвет рамки при наведении */
+}
+
+/* Стили при активации (нажатии) кнопки */
+.btn-primary:active {
+  background-color: #2173a0; /* Измените цвет при активации */
+  border-color: #84abd1; /* Измените цвет рамки при активации */
+}
+
+/* Стили при фокусе на кнопке (например, с помощью клавиши Tab) */
+.btn-primary:focus {
+  background-color: #133547; /* Измените цвет при фокусе */
+  border-color: #007bff; /* Измените цвет рамки при фокусе */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Добавьте фокус-кольцо */
+}
+
+  
+  /* заголовки главного баннера*/
+.container h1.font-effect-emboss {
+  font-family: 'Audiowide', cursive; /* Шрифт "Audiowide" */
+  text-transform: uppercase; /* Преобразование текста в верхний регистр */
+  font-size: 76px; /* Размер шрифта */
+  text-align: center; /* Выравнивание текста по центру */
+  color: white; /* Цвет текста */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень текста */
+}
+.container p.font-effect-emboss {
+    font-family: 'Audiowide', cursive; /* Шрифт "Audiowide" */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    font-size: 46px; /* Размер шрифта */
+    text-align: center; /* Выравнивание текста по центру */
+    color: white; /* Цвет текста */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень текста */
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Необходимо установить высоту контейнера */
+    margin: 0 auto;
+  }
+/* Стили для блока с текстом */
+.services-container {
+  background-color: #e0e8ed;
+  border: 2px solid #424040; /* Границы блока (1px толщина, серый цвет) */
+  padding: 20px; /* Отступы внутри блока */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/* Стили для заголовка My CV" */
+.services-title {
+  font-size:36px; /* Размер шрифта заголовка */
+  color: #272930; /* Цвет шрифта заголовка */
+  font-weight: bold; /* Делаем текст жирным */
+
+  text-align: center; /* Выравнивание текста по правому краю */
+  text-shadow: 2px 2px 4px rgba(40, 40, 58, 0.5); /* Эффект тени текста */
+  /* Другие эффекты текста (например, text-decoration, text-transform и др.) */
+}
+
+/* Стили для заголовка "Summary", "EDUCATION" и "WORK EXPERIENCE" */
+.service-title {
+  font-size: 20px; /* Размер шрифта заголовков услуг */
+  color: #282a3f; /* Цвет шрифта заголовков услуг */
+  text-align: left; /* Выравнивание текста по правому краю */
+  font-weight: bold; /* Жирный шрифт */
+  /* Другие эффекты текста */
+}
+
+/* Стили для текста услуг */
+.service-text {
+  color: #16192f; /* Цвет шрифта текста услуг */
+  text-align: justify
+  /* Другие эффекты текста */
+}
+/* Стили для текста внутри списка */
+.service-text ul {
+  font-size: 16px;
+  list-style-type: disc; /* Стиль маркера списка */
+  margin-left: 20px; /* Отступ слева для списка */
+  color: #c12335;
+}
+
+.header1 {
+  font-size: 12px; /* Размер шрифта */
+  color: #181b1e; /* Цвет шрифта */
+}
+
+.header2 {
+  font-size: 16px; /* Размер шрифта */
+  
+  color: #141313; /* Цвет шрифта */
+}
+
+
+
+/* Стили для медиа-запросов */
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  /* ... */
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  /* ... */
+  .col-12 {width: 100%;}
+}
+
+/* Общие стили для всех элементов */
+* {
+  box-sizing: border-box;
+}
+
+/* Стили для блока с видео и колонок */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  flex: 0 0 calc(33.333% - 15px); /* 33.333% для каждой колонки с отступами между ними */
+  margin-right: 15px; /* Отступ между колонками */
+}
+
+/* Стили для видео-контейнера */
+.video-container1 {
+  flex: 0 0 calc(33.333% - 15px); /* 33.333% для видео-контейнера с отступами между колонками */
+  margin: 20px 15px 15px 0; /* Отступы для видео-контейнера (20px сверху, 15px справа, 15px снизу, 0 слева) */
+}
+/* Стили для текста в h1 */
+h1 {
+  font-size: 64px; /* Размер шрифта */
+  margin-top: 50px; /* Верхний отступ */
+  color: #b6cbdb; /* Цвет текста */
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(182, 182, 187), 0 0 5px rgb(31, 31, 35);
+}
+video {
+  width: 100%;
+  height: auto;
+}
+/* Стили для списка видео */
+#video-list li {
+  margin: 15px 0;
+  cursor: pointer;
+  display: block;
+  padding: 5px 10px;
+  background-color: #8aa6c5; /* Цвет фона кнопки */
+  color: #fefbfb; /* Цвет текста кнопки */
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px black, 0 0 25px rgb(182, 182, 187), 0 0 3px rgb(31, 31, 35);
+  transition: background-color 0.3s ease;
+  text-align: center; /* Выравниваем текст по центру */
+  line-height: 2; /* Выравниваем по вертикали по центру */
+}
+
+#video-list li:hover {
+  background-color: #0056b3; /* Измененный цвет фона при наведении */
+}
+/* Очистка после блока .row */
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Стили для других элементов на странице (header, menu, aside, footer и т. д.) */
+/* ... */
+
+
+  .carousel-inner {
+    max-width: 900px; /* Устанавливаем максимальную ширину слайдера на 900px */
+    margin: 0 auto; /* Центрируем слайдер на странице */
+  }
+
+  .carousel-caption {
+    background-color: rgba(242, 242, 242, 0.4);  /* Цвет фона (светлосерый) */
+    padding: 0px; /* Отступы вокруг текста */
+  }
+
+  .carousel-caption h3 {
+    font-family: Verdana,  sans-serif;
+  text-transform: uppercase; /* Преобразование текста в верхний регистр */
+  font-size: 48px; /* Размер шрифта */
+  text-align: center; /* Выравнивание текста по центру */
+  padding: 30px 30px;
+  color: rgb(249, 245, 245); /* Цвет текста */
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(41, 41, 49), 0 0 5px rgb(22, 22, 60);
+  }
+
+  .footer {
+    background-color: #c4d4e3; /* Цвет фона футера */
+    color: white; /* Цвет текста в футере */
+    padding: 20px 0; /* Отступы внутри футера */
+    text-align: center; /* Выравнивание текста по центру */
+  }
+  
+  /* Стили для иконок соцсетей (пример) */
+  .footer .fab {
+    font-size: 40px; /* Увеличьте размер иконок по вашему усмотрению */
+    margin-right: 20px;
+    color: #063248;
+    margin-top: 25px;
+  }
+  /* Добавьте дополнительные стили по вашему желанию */
+  /* Стили для кнопки загрузки */
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #063248; /* Цвет фона кнопки */
+  color: #fff; /* Цвет текста кнопки */
+  text-decoration: none; /* Убираем подчеркивание текста */
+  border-radius: 50px; /* Скругленные углы */
+  transition: background-color 0.3s ease; /* Плавное изменение цвета при наведении */
+  margin-top: 10px;
+}
+
+.download-button:hover {
+  background-color: #0056b3; /* Измененный цвет фона при наведении */
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+}
+
+.scroll-to-top .btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+
+.scroll-to-top .btn:hover {
+  background-color: #063248;
+}
+/* Стили для иконки почты */
+.fab.fa-envelope {
+  transform: rotate(90deg); /* Поворачиваем иконку на 90 градусов по часовой стрелке */
+}
