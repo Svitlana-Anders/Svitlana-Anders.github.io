@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=neon|outline|emboss|shadow-multiple">
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</style>
+</head>
+<body>
+    <div class="hero">
+        <div class="btn-group btn-group-lg"  style="position: absolute; top: 30px; left: 20px; ">
+          <a href="#about-me" class="btn btn-primary font-effect-emboss">About me</a>
+          <button type="button" class="btn btn-primary font-effect-emboss" data-target="#footer" data-toggle="collapse">Contact Me</button>
+          <a href="images/Anders-Svitlana.pdf" download class="btn btn-primary font-effect-emboss">Download my CV</a>
+        </div>
+       
+        <div class="container">
+          <h1 class="font-effect-emboss">Svitlana Anders</h1>
+          <p class="font-effect-emboss">QA Engineer</p>
+        </div>
+    </div>
+      
+
+  <div class="container-fluid bg-1 text-center">
+    <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="centered">
+            <img src="images/photo_2023-05-13_16-07-07.jpg" class="img-responsive img-rounded" alt="Bird" style="width: 70%">
+          </div>
+        </div>
+        <div id="about-me" class="col-md-8 text-left">
+            <h2>About me</h2>
+            <p>    I want to achieve great things in life. I don't want my life to be boring and monotonous. I know how difficult the path from the desired to the actual. 
+              There is a lot to learn, to overcome obstacles and difficulties. And only after experiencing all this, we understand what a great pleasure it is
+               to achieve our goal.
+              My area of ​​interest is varied. I try to develop comprehensively, so I am interested in many things: science, technology, psychology,
+               philosophy, creativity and literature. I am ready to take on new projects and bring things to the end. I work well in a team, 
+               but I can also lead if necessary. I consider openness to everything new, flexibility of mind and interest in life as my strengths.</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid services-container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="services-title">My CV</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="service-title">SUMMARY</h3>
+        <p class="service-text">
+          I have a deep understanding of the software development lifecycle and a wide range of testing techniques, including functional, regression, UI/UX, and exploratory testing. I am skilled at writing detailed test cases and test plans, and thoroughly documenting identified defects. Proficiency in Test Analysis, Bug Detection, Defect isolation, and Report generation. My critical thinking, analytical skills, and attention to detail allow me to effectively identify and debug application defects, ensuring high quality and product reliability. I am a confident user of various testing tools and technologies such as Postman, Charles, JIRA, Linux Terminal, and others.
+        </p>
+        <h3 class="service-title">EDUCATION</h3>
+        <p class="service-text">
+          <ul>
+            <li>Author's course by Vadim Ksendzov «Software Testing»</li>
+            <li>Stormnet Technologies "Software Testing Course"</li>
+            <li>Kherson State University (Physics and technology of materials and components of electronic equipment)</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h3 class="service-title">WORK EXPERIENCE</h3>
+        <p class="service-text">
+          <p><span class="header1">Feb 2022- Present</span></p>
+          <p><span class="header2">QA Engineer ITX Company</span></p>
+          <ul>
+            <li>Perform Web and mobile (Android and iOS) testing</li>
+            <li>Creation, maintenance, and execution of checklists, test cases, and bug reports</li>
+            <li>Analysis of the root causes of defects and their localization</li>
+            <li>Conducting compatibility testing in various browsers (Chrome, IE, Firefox, and Safari)</li>
+            <li>Regular communication with the team and providing test reports</li>
+            <li>Smoke testing, Regression testing, Re-tests, UI/UX, and Localization testing, Ad-hoc, Exploratory testing</li>
+          </ul>
+          <p><span class="header1">May 2022 - Present</span></p>
+          <p><span class="header2">Tester, Freelance</span></p>
+          <ul>
+            <li>Writing checklists for smoke, critical path, and regression testing applications</li>
+            <li>Web and Mobile application testing (Android application)</li>
+            <li>Providing bug reports</li>
+            <li>Localization testing</li>
+            <li>Cross-browser and cross-platform testing</li>
+          </ul>
+        </p>
+      </div>
+      <div class="col-md-2">
+        <h3 class="service-title">HARD SKILLS</h3>
+        <p class="service-text">
+          <ul>
+            <li>Postman</li>
+            <li>DevTools</li>
+            <li>Linux Terminal</li>
+            <li>Git</li>
+            <li>Android Studio</li>
+            <li>DBeaver (basic SQL)</li>
+            <li>Charles / Fiddler</li>
+          </ul>
+        </p>
+        <h3 class="service-title">LANGUAGE</h3>
+        <p class="service-text">
+          <ul>
+            <li>Russian - native language</li>
+            <li>Ukranian - native language</li>
+            <li>Polish - intermediate</li>
+            <li>English - intermediate</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Левая колонка с заголовком -->
+      <div class="col-md-4 text-center mt-10">
+        <h1>My video</h1>
+      </div>
+  
+      <!-- Правая колонка с видео -->
+      <div class="col-md-4 video-container1">
+        <video id="video-player" width="400" controls>
+          <source src="" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+  
+      <!-- Средняя колонка с списком видео -->
+      <div class="col-md-4">
+        <ul id="video-list">
+          <li data-video-src="images\Пространство имен.mp4">Пространство имен</li>
+          <li data-video-src="images\Пространство имен.mp4">Пространство имен</li>
+          <li data-video-src="images\Переполнение буфера.mp4">Переполнение буфера</li>
+          <li data-video-src="images\Абсолютная оценка = Часы.mp4">Эстимация</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Подключаем библиотеку jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- Подключаем библиотеку Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- Подключаем ваш собственный скрипт -->
+  <script src="script.js"></script>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="https://docs.google.com/document/d/1F_7tSuO9AcxZR7C1yLwgceN7P9ycTogg_w198LIf4j4/edit" target="_blank">
+          <img src="images/testPlan.jpg" alt="Slide 1" class="center-block" style="max-width: 100%; height: auto;">
+          <div class="carousel-caption">
+            <h3>Test Plan</h3>
+          </div>
+        </a>
+      </div>
+      <div class="item">
+        <a href="https://docs.google.com/spreadsheets/d/1rbJuZ2KKB4IwOSLjOwzNMA_dUmKxz1ee3P-Z3Vg_p4g/edit#gid=0" target="_blank">
+          <img src="images\check-list.jpg" alt="Slide 2" class="center-block" style="max-width: 100%; height: auto;">
+          <div class="carousel-caption">
+            <h3>Check List</h3>
+          </div>
+        </a> 
+      </div>
+
+      <div class="item">
+        <a href="page4.html" target="_blank">
+          <img src="images/test-case.jpg" alt="Slide 4" class="center-block" style="max-width: 100%; height: auto;">
+          <div class="carousel-caption">
+            <h3>Test Case</h3>
+          </div>
+        </a>
+      </div>
+  
+      <div class="item">
+        <a href="https://docs.google.com/spreadsheets/d/1rbJuZ2KKB4IwOSLjOwzNMA_dUmKxz1ee3P-Z3Vg_p4g/edit#gid=1561788324" target="_blank">
+          <img src="images/bug_0.jpg" alt="Slide 3" class="center-block" style="max-width: 100%; height: auto;">
+          <div class="carousel-caption">
+            <h3>Bug Report</h3>
+          </div>
+        </a>
+      </div>
+  
+      <div class="item">
+        <a href="page4.html" target="_blank">
+          <img src="images/SQL.png" alt="Slide 4" class="center-block" style="max-width: 100%; height: auto;">
+          <div class="carousel-caption">
+            <h3>My QSL</h3>
+          </div>
+        </a>
+      </div>
+
+      <div class="item">
+        <a href="page4.html" target="_blank">
+          <img src="images\Postman.png" alt="Slide 4" class="center-block" style="max-width: 100%; height: auto;">
+          <div class="carousel-caption">
+            <h3>Postman</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <ul class="list-inline">
+            <!-- Добавляем ссылки на социальные сети (пример) -->
+            <li><a href="https://www.facebook.com/profile.php?id=100003547292399" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/sorvena.bag" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/svitlana-anders/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://t.me/sorvena" target="_blank"><i class="fab fa-telegram"></i></a></li>
+            <li><a href="mailto:svitlana.anders@gmail.com" target="_blank"><i class="fab fa-envelope"></i></a></li>
+            <li><a href="https://github.com/Svitlana-Anders/" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="scroll-to-top">
+    <a href="#" id="scrollToTopButton" class="btn btn-primary">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+  
+  
+  
+  
+</body>
+</html>
